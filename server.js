@@ -7,7 +7,7 @@ const formatMessage = require('./utils/message');
 const {userJoin,getCurrentUser, userLeave, getRoomUsers} = require('./utils/users');
 
 
-const app = express('');
+const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
