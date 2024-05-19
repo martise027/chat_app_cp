@@ -73,7 +73,6 @@ function outputMessage(message,username) {
         else p.classList.add('meta_received');
         p.innerText = message.username+" : ";
         p.innerHTML += `<span>${message.time}</span>`;
-        //div.appendChild(p);
         const para = document.createElement('p');
         para.classList.add('text');
         para.innerText = message.text;
@@ -106,14 +105,6 @@ function printAdminmessage(message){
     document.querySelector('.chat-messages').appendChild(divav);
 }
 
-//* add room name to DOM
-// function outputRoomName(room){
-//     console.log('room name check -> '+ room);
-    
-//     roomName.innerText = room;
-    
-//     //roomName.innerText = room;
-// }
 
 //* Add user to DOM
 function outputUsers(user){

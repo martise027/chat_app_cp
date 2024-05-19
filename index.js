@@ -70,7 +70,9 @@ function isChatAllowed() {
     const hours = date.getHours();
     const day = date.getDay(); 
 
-    if (day === 6 && ((hours === 21 && minutes >= 0) || (hours === 22 && minutes <= 40))) {
+    const jp = (hours + 9 ) % 24;
+
+    if (day === 6 && ((jp === 21 && minutes >= 0) || (jp === 22 && minutes <= 40))) {
         return false;
     }
     return true;
