@@ -6,12 +6,35 @@
     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
 </p>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+## Table of contents
+- [Description](#description)
+- [Feature](#feature)
+- [Usage](#usage)
+- [App structure](#app-structure)
+
+
+
 ## Description
 This is chat application for people who attend Atcoder ABC contest. username is generated automatically and choose room by programming language.
+
+Login or registration is not required to help make community larger.
 
 ## Feature
 1. Group chatting
 2. Disable chatting feature during the contest
+
+## Usage
+[Chat app link](https://chat-app-cp.onrender.com)
+
+**This is landing page you can choose group to join.**
+![alt text](/landing.png)
+<br>
+
+**This is how chat room look like**
+![alt text](/chatRoom.png)
 
 ## App structure
 ```
